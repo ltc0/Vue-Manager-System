@@ -1,4 +1,4 @@
-import useStore from "C:/0000项目/Vue_keshihua/vite-project/src/store/index";
+import useStore from "../store/index.js";
 
 //
 //此时已经拿到传进来的数组值，要与ruleNames进行比对

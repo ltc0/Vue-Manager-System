@@ -29,7 +29,7 @@
 import FHeader from "./component/FHeader.vue";
 import FMenu from "./component/FMenu.vue";
 import FTagList from "./component/FTagList.vue";
-import useStore from "C:/0000项目/Vue_keshihua/vite-project/src/store";
+import useStore from "../store";
 const store = useStore();
 </script>
 

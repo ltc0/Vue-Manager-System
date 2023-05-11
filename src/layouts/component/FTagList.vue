@@ -43,7 +43,7 @@
 </template>
 <script lang="ts" setup>
 import { useTabList } from "../../composables/useTabList.js";
-import useStore from "C:/0000项目/Vue_keshihua/vite-project/src/store";
+import useStore from "../../store";
 const store = useStore();
 const { activeTab, tabList, changeTab, removeTab, handleClose } = useTabList();
 </script>

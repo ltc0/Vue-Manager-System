@@ -3,13 +3,13 @@ import { reactive, ref } from "vue";
 import {
     logout,
     update,
-} from "C:/0000项目/Vue_keshihua/vite-project/src/Api/mananger.js";
-import useStore from "C:/0000项目/Vue_keshihua/vite-project/src/store";
+} from "../Api/mananger.js";
+import useStore from "../store";
 import { useRouter } from "vue-router";
 import {
     showModel,
     toast,
-} from "C:/0000项目/Vue_keshihua/vite-project/src/composables/auth.js";
+} from "../composables/auth.js";
 import FormDrawer from "../components/FormDrawer.vue";
 
 export function uesRepassword() {

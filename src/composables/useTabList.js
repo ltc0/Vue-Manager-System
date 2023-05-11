@@ -1,5 +1,5 @@
 import { ref } from "vue";
-import useStore from "C:/0000项目/Vue_keshihua/vite-project/src/store";
+import useStore from "../store";
 import {useRouter,useRoute,onBeforeRouteUpdate, onBeforeRouteLeave, routerKey} from "vue-router"
 import { useCookies } from '@vueuse/integrations/useCookies'
 import { ArrowDown } from "@element-plus/icons-vue";

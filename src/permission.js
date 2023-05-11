@@ -33,6 +33,7 @@ router.beforeEach(async (to,from,next) => {
         hasGetInfo = true
         hasNewRoutes =  addRoutes(menus)
     }
+    
 
     //设置页面标题
     let title = (to.meta.title ? to.meta.title : "") +　"-商城后台"

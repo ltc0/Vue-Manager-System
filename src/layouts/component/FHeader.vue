@@ -84,7 +84,7 @@
 import { reactive, ref } from "vue";
 import {uesRepassword,handlelogout} from "../../composables/useManager"
 import FormDrawer from "../../components/FormDrawer.vue";
-import useStore from "C:/0000项目/Vue_keshihua/vite-project/src/store";
+import useStore from "../../store";
 import { useRouter } from "vue-router";
 const store = useStore();
 const router = useRouter();

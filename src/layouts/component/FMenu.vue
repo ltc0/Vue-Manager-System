@@ -52,7 +52,7 @@
 <script setup>
 import {useRouter,useRoute} from "vue-router"
 import { computed,ref } from 'vue';
-import useStore from "C:/0000项目/Vue_keshihua/vite-project/src/store";
+import useStore from "../../store";
 import { arrowMiddleware } from "element-plus";
 
 const router = useRouter()
